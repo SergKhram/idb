@@ -17,7 +17,7 @@ jobs:
         run: |
           cd $GITHUB_WORKSPACE
           brew install xcodegen protobuf swift-protobuf grpc-swift
-          ./build.sh build
+          ./build.sh build idb_companion
 
       - name: Compress idb_companion
         run: |
